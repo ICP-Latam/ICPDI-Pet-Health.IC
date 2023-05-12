@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "PetHealth_backend": {
+      "main": "src/PetHealth_backend/main.mo",
+      "type": "motoko"
+    },
+    "PetHealth_frontend": {
+      "dependencies": [
+        "PetHealth_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/PetHealth_frontend/src/index.html"
+      },
+      "source": [
+        "src/PetHealth_frontend/assets",
+        "dist/PetHealth_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
