@@ -1,6 +1,13 @@
 body {
-    font-family: sans-serif;
-    font-size: 1.5rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "lato", sans-serif;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=1.00xw:0.756xh;0,0.0756xh&resize=1200:*");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img {
